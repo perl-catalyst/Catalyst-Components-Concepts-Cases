@@ -44,6 +44,8 @@ The following is a listing of proposed topic under each section.  Pull requests 
 
 =head2 Concepts
 
+=over 4
+
 =item Model - View - Controller
 
 =item Inversion of Control
