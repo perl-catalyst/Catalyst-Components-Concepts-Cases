@@ -20,11 +20,11 @@ This section would review each of the main design pattern concepts that Catalyst
 
 =head2 Cases
 
-This section should cover typical approaches to solving clearly defined problems and questions one faces when building a Catalyst application.  Cases can be as small as 'what is the best way to build a URL?' and as large as 'what is s good  approach for building AJAXy style web forms?'  For some use cases there might be more than one good solution, but we should identity a common 'you won't get fired for doing it this way' approach, although it would be fine to mention other resources for review
+This section should cover typical approaches to solving clearly defined problems and questions one faces when building a Catalyst application.  Cases can be as small as 'what is the best way to build a URL?' and as large as 'what is a good approach for building AJAXy style web forms?'  For some use cases there might be more than one good solution, but we should identity a common "you won't get fired for doing it this way" approach, although it would be fine to mention other resources for review.
 
 =head1 PROPOSED TOPICS
 
-The following is a listing of proposed topic under each section.  Pull requests very welcomed!
+The following is a listing of proposed topics under each section.  Pull requests very welcome!
 
 =head2 Components
 
