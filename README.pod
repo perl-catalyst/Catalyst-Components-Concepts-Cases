@@ -1,0 +1,67 @@
+=head1 TITLE
+
+Catalyst::Components::Concepts::Cases - A Catalyst Documentation Project
+
+=head1 DESCRIPTION
+
+This L<Catalyst> documentation project serves two main goals.  First it is intended to be a reference point for people that are beyond the basic tutorial but for who the API reference and source code is not enough guidence.  Second, by describing Catalyst in more detail we hope to be able to use this as a jumping off point for describing where Catalyst is going in the future (Catalyst 6 and beyond).  For example, a document which explains what a L<Catalyst::Component> is today could be linked to a proposal for what a such a component could be for Catalyst 6.
+
+=head1 SECTIONS
+
+This documentation project is broken down into three main sections, which each section scoped to a particular domain of Catalyst knowledge
+
+=head2 Components
+
+This section covers the main Catalyst components (L<Catalyst::Component>, L<Catalyst::Model>, L<Catalyst>, etc.)  The goal of this section is to provide a explaination of each core component that makes of the main Catalyst codebase, how it works and what was the thinking behind the design.  It is also likely we'd like to provide similar documentation for a handful of components that exist in the greater code ecosystem but are usually considered part of an ordinary Catalyst application (think the DBIC model, the Template Toolkit view, L<Catalyst::Model::Adaptor>, a number of the more important plugins.)
+
+=head2 Concepts
+
+This section would review each of the main design pattern concepts that Catalyst uses (MVC, Chain of Command, Inversion of Control, Middleware, etc.) and explain what they are used for and how Catalyst interprets the pattern.  We should also cover a handful of core Perl concepts such as how Catalyst uses L<PSGI> and the thinking that goes into building a well formed Perl module.
+
+=head2 Cases
+
+This section should cover typical approaches to solving clearly defined problems and questions one faces when building a Catalyst application.  Cases can be as small as 'what is the best way to build a URL?' and as large as 'what is s good  approach for building AJAXy style web forms?'  For some use cases there might be more than one good solution, but we should identity a common 'you won't get fired for doing it this way' approach, although it would be fine to mention other resources for review
+
+=head1 PROPOSED TOPICS
+
+The following is a listing of proposed topic under each section.  Pull requests very welcomed!
+
+=head2 Componenets
+
+=over 4
+
+=item Catalyst
+
+=item Catalyst::Component
+
+=item Catalyst::View
+
+=item Catalyst::Model
+
+=item Catalyst::Controller
+
+=back
+
+=head2 Concepts
+
+=item Model - View - Controller
+
+=item Inversion of Control
+
+=item Chain of Command
+
+=item PSGI
+
+=back
+
+=head2 Cases
+
+=over 4
+
+=item URL Generation
+
+=item Configuration
+
+=back
+
+=cut
