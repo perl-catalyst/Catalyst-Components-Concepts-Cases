@@ -26,7 +26,7 @@ This section should cover typical approaches to solving clearly defined problems
 
 The following is a listing of proposed topic under each section.  Pull requests very welcomed!
 
-=head2 Componenets
+=head2 Components
 
 =over 4
 
