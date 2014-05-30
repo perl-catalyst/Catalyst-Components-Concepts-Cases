@@ -12,7 +12,7 @@ This documentation project is broken down into three main sections, which each s
 
 =head2 Components
 
-This section covers the main Catalyst components (L<Catalyst::Component>, L<Catalyst::Model>, L<Catalyst>, etc.)  The goal of this section is to provide a explaination of each core component that makes of the main Catalyst codebase, how it works and what was the thinking behind the design.  It is also likely we'd like to provide similar documentation for a handful of components that exist in the greater code ecosystem but are usually considered part of an ordinary Catalyst application (think the DBIC model, the Template Toolkit view, L<Catalyst::Model::Adaptor>, a number of the more important plugins.)
+This section covers the main Catalyst components (L<Catalyst::Component>, L<Catalyst::Model>, L<Catalyst>, etc.)  The goal of this section is to provide a explanation of each core component that makes up the main Catalyst codebase, how it works and what was the thinking behind the design.  It is also likely we'd like to provide similar documentation for a handful of components that exist in the greater code ecosystem but are usually considered part of an ordinary Catalyst application (think the DBIC model, the Template Toolkit view, L<Catalyst::Model::Adaptor>, a number of the more important plugins.)
 
 =head2 Concepts
 
@@ -53,6 +53,22 @@ The following is a listing of proposed topics under each section.  Pull requests
 =item Chain of Command
 
 =item PSGI
+
+=item Factory Pattern
+
+=item Singleton Pattern
+
+=item Metaprogramming & Domain Specific Languages
+
+=back
+
+=head2 Catalyst Specific Concepts
+
+=over 4
+
+=item Chaining & Forwarding
+
+=item Context & Application
 
 =back
 
