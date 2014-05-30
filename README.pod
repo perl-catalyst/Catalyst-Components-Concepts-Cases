@@ -54,6 +54,22 @@ The following is a listing of proposed topics under each section.  Pull requests
 
 =item PSGI
 
+=item Factory Pattern
+
+=item Singleton Pattern
+
+=item Metaprogramming & Domain Specific Languages
+
+=back
+
+=head2 Catalyst Specific Concepts
+
+=over 4
+
+=item Chaining
+
+=item Forwarding
+
 =back
 
 =head2 Cases
