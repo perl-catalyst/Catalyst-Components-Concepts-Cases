@@ -66,9 +66,9 @@ The following is a listing of proposed topics under each section.  Pull requests
 
 =over 4
 
-=item Chaining
+=item Chaining & Forwarding
 
-=item Forwarding
+=item Context & Application
 
 =back
 
