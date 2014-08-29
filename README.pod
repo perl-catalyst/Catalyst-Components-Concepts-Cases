@@ -70,6 +70,8 @@ The following is a listing of proposed topics under each section.  Pull requests
 
 =item Context & Application
 
+=item Subroutine Attributes
+
 =back
 
 =head2 Cases
