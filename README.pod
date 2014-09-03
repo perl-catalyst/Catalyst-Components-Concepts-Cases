@@ -60,6 +60,10 @@ The following is a listing of proposed topics under each section.  Pull requests
 
 =item Metaprogramming & Domain Specific Languages
 
+=item UTF8 and content encoding/decoding
+
+=item Content Negotiation
+
 =back
 
 =head2 Catalyst Specific Concepts
